@@ -40,6 +40,9 @@ dos2unix README.rst
 dos2unix licenses/dom_license_e.txt
 dos2unix licenses/license_e.txt
 
+# try fix build with boost 1.89
+sed -i 's/\<system\>//' CMakeLists.txt
+
 
 %build
 %cmake -DCMAKE_SKIP_INSTALL_RPATH:BOOL=ON
