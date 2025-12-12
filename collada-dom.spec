@@ -1,6 +1,6 @@
 Name:           collada-dom
 Version:        2.5.0
-Release:        2
+Release:        3
 Summary:        COLLADA Document Object Model Library
 License:        MIT
 URL:            http://www.collada.org
