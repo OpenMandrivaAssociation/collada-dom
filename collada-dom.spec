@@ -8,6 +8,7 @@ Source0:        https://github.com/rdiankov/collada-dom/archive/v%{version}.tar.
 Patch0:         https://patch-diff.githubusercontent.com/raw/rdiankov/collada-dom/pull/43.patch
 Patch1:         https://patch-diff.githubusercontent.com/raw/rdiankov/collada-dom/pull/44.patch
 
+BuildRequires:  make
 BuildRequires:  boost-devel
 BuildRequires:  cmake
 BuildRequires:  dos2unix
